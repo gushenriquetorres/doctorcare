@@ -1,0 +1,43 @@
+/* === GERAL =============================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-green: hsl(170, 100%, 26%);
+  --brand-green-hover: hsl(170, 100%, 14%);
+  --brand-green-light: hsl(148, 23%, 89%);
+  --brand-green-light-02: hsl(180, 14%, 97%);
+  --brand-beige: hsl(39, 100%, 97%);
+  --gray-headline: hsl(210, 11%, 15%);
+  --gray-paragraph: hsl(210, 9%, 31%);
+  --white: hsl(0, 0%, 93%);
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* === HOME =============================*/
+h4 {
+  font-size: 1.4rem;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  color: var(--brand-green);
+}
+
+h1 {
+  font-size: 3.4rem;
+  line-height: 130%;
+  color: var(--gray-headline);
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: var(--gray-paragraph);
+}
